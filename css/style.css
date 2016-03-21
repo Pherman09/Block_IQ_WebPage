@@ -22,11 +22,18 @@ body {
     background-position: 50% 50%;
 }
 
-
-
+#AddressForm {
+  width:90%;
+}
 #AppTitle{
   margin-top: 2.5%;
-  color: white;
+  color: black;
+  font-weight: bold;
+}
+#subtitle, #Scene2, #Scene3{
+  margin-top: 2.5%;
+  color: black;
+  font-size: x-large;
   font-weight: bold;
 }
 
@@ -38,14 +45,16 @@ sidebar {
 
 #AddressForm {
   width:90%;
+  height: 60px;
+  font-size: x-large;
 }
 
-#ToQuizSlide {
-  margin-top: 2.5%;
-  color: white;
-  font-weight: bold;
-  align-content: center;
-  border-radius: 25px;
-  background-color: #147A8F;
-  padding: 10px 10px;
+#buttons button, #button-next, #ToQuizSlide{
+  width:45%;
+  height: 100px;
+  color:white;
+  background-color: #666;
+  border: 0;
+  margin: 5px 5px 5px 5px;
+  font-size: x-large;
 }
